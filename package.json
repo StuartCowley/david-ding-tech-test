@@ -38,5 +38,8 @@
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.22.5"
-  }
+  },
+  "jest": {
+    "transformIgnorePatterns": ["node_modules/(?!axios)/"]
+  }  
 }
