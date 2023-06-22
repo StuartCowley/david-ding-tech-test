@@ -3,6 +3,7 @@ import "../styles/app.css";
 import Search from "./Search";
 
 const App = () => {
+  const [searchResults, setSearchResults] = useState("");
   return (
     <div className="App">
       <img
@@ -10,7 +11,7 @@ const App = () => {
         alt="nasaLogo"
         className="nasa-logo"
       ></img>
-      <Search />
+      <Search setSearchResults={setSearchResults} />
     </div>
   );
 };
