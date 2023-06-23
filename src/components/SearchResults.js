@@ -2,19 +2,20 @@ import React from "react";
 import "../styles/search-results.css";
 const SearchResults = ({ results }) => {
   if (!results.length) {
-    return <p>No results</p>;
+    return <p className="no-results-msg">No results!</p>;
   } else {
     return (
       <>
-        <p>Search Results</p>
-        {results.map((result, index) => (
-          <img
-            key={index}
-            className="card-image"
-            alt="moon-pic"
-            src={result}
-          ></img>
-        ))}
+        <div className="search-results">
+          {results.map((result, index) => (
+            <img
+              key={index}
+              className="results-images"
+              alt="moon-pic"
+              src={result}
+            ></img>
+          ))}
+        </div>
       </>
     );
   }
