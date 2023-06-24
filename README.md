@@ -23,8 +23,8 @@ Users should be able to
 * For example, if you search for moon and press 'Enter' on your keyboard or press the 'Go!' button, images related to moons will be retrieved.
 
 # What I would do if I had more time
-* Allowing users to search for other space-related queries other than moon images
-* Improve error handling and validation by implementing appropriate error messages, validating user inputs, and handling edge cases to help improve user experience
+* Make the website more responsive to other devices.
+* Improve error handling and validation by implementing appropriate error messages, validating user inputs, and handling edge cases to help improve user experience.
 * Implementing database migrations to manage schema changes to make it easier to update and deploy the application.
 
 # Credits
